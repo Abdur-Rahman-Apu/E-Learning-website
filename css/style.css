@@ -1,0 +1,53 @@
+/* ****************************************GOOGLE FONTS********************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
+
+
+/* *******************************************UTILITIES********************************** */
+
+
+/* *****************************************FONTS CLASS********************************** */
+
+.text-poppins-400,
+.text-poppins-600 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-poppins-400 {
+    font-weight: 400;
+}
+
+.text-poppins-600 {
+    font-weight: 600;
+}
+
+.text-roboto-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* ***************************************COLOR******************************** */
+
+.primary-bg-color {
+    background-color: #289BDE;
+}
+
+.primary-color {
+    color: #289BDE;
+}
+
+
+/* ******************************************header part**************************** */
+
+.carousel .carousel-item img {
+    min-height: 100vh;
+    object-fit: cover;
+
+}
+
+.carousel-caption {
+    top: 30%;
+}
+
+
+/* ****************************************media query****************************** */
