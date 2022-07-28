@@ -63,18 +63,18 @@
 
 /* ******************************************header part**************************** */
 
-.carousel .carousel-item img {
+header .carousel .carousel-item img {
     min-height: 100vh;
     object-fit: cover;
 
 }
 
-.carousel-caption {
+header .carousel-caption {
     top: 30%;
 }
 
-.carousel-control-prev i,
-.carousel-control-next i {
+header .carousel-control-prev i,
+header .carousel-control-next i {
     font-size: 1.5em;
     color: white;
 }
@@ -84,5 +84,7 @@
 .register-section {
     min-height: 220px;
 }
+
+
 
 /* ****************************************media query****************************** */
