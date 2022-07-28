@@ -26,14 +26,38 @@
     font-weight: 500;
 }
 
+
+/* *********************************custom button design ******************************* */
+.button {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+
+}
+
+.button:hover {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    background-color: white;
+}
+
 /* ***************************************COLOR******************************** */
 
 .primary-bg-color {
     background-color: #289BDE;
 }
 
+.secondary-bg-color {
+    background-color: #F4FAFD;
+    ;
+}
+
 .primary-color {
     color: #289BDE;
+}
+
+.secondary-color {
+    color: #777777;
 }
 
 
@@ -49,5 +73,16 @@
     top: 30%;
 }
 
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 1.5em;
+    color: white;
+}
+
+
+/* *********************************************main part*************************** */
+.register-section {
+    min-height: 220px;
+}
 
 /* ****************************************media query****************************** */
