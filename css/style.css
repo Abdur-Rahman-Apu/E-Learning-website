@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
 
 /* *****************************************FONTS CLASS********************************** */
-
 .text-poppins-400,
 .text-poppins-600 {
     font-family: 'Poppins', sans-serif;
@@ -36,7 +35,6 @@
 }
 
 /* ***************************************COLOR******************************** */
-
 .primary-bg-color {
     background-color: #289BDE;
 }
