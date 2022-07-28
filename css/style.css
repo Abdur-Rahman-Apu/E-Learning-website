@@ -29,7 +29,6 @@
     color: white;
     transition: all 1s;
     cursor: pointer;
-
 }
 
 .button:hover {
@@ -46,7 +45,6 @@
 
 .secondary-bg-color {
     background-color: #F4FAFD;
-    ;
 }
 
 .primary-color {
@@ -85,7 +83,6 @@ header .carousel-control-next i {
     height: 5%;
 }
 
-
 .modal-body img {
     width: 10%;
 }
@@ -95,28 +92,7 @@ footer {
     min-height: 350px;
 }
 
-.social-media a {
-    text-decoration: none;
-    color: white;
-}
-
-/* ****************************************footer****************************** */
-footer .social-media .fb:hover i {
-    color: #4267B2;
-}
-
-footer .social-media .tweet:hover i {
-    color: #1DA1F2;
-}
-
-footer .social-media .linkedin:hover i {
-    color: #0072b1;
-}
-
-footer .social-media .instagram:hover i {
-    color: #833AB4;
-}
-
+/* ********************************************media query**************************** */
 @media screen and (max-width:567px) {
     .carousel-caption p {
         font-size: 0.6em;
