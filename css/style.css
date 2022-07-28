@@ -85,6 +85,9 @@ header .carousel-control-next i {
     min-height: 220px;
 }
 
-
+.company img {
+    width: 10%;
+    height: 5%;
+}
 
 /* ****************************************media query****************************** */
