@@ -1,10 +1,7 @@
 /* ****************************************GOOGLE FONTS********************************** */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
 
-
 /* *******************************************UTILITIES********************************** */
-
 
 /* *****************************************FONTS CLASS********************************** */
 
@@ -25,7 +22,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-
 
 /* *********************************custom button design ******************************* */
 .button {
@@ -61,7 +57,6 @@
     color: #777777;
 }
 
-
 /* ******************************************header part**************************** */
 
 header .carousel .carousel-item img {
@@ -80,7 +75,6 @@ header .carousel-control-next i {
     color: white;
 }
 
-
 /* *********************************************main part*************************** */
 .register-section {
     min-height: 220px;
@@ -96,7 +90,6 @@ header .carousel-control-next i {
     width: 10%;
 }
 
-
 /* *********************************************footer part**************************** */
 footer {
     min-height: 350px;
@@ -107,4 +100,25 @@ footer {
     color: white;
 }
 
-/* ****************************************media query****************************** */
+/* ****************************************footer****************************** */
+footer .social-media .fb:hover i {
+    color: #4267B2;
+}
+
+footer .social-media .tweet:hover i {
+    color: #1DA1F2;
+}
+
+footer .social-media .linkedin:hover i {
+    color: #0072b1;
+}
+
+footer .social-media .instagram:hover i {
+    color: #833AB4;
+}
+
+@media screen and (max-width:567px) {
+    .carousel-caption p {
+        font-size: 0.6em;
+    }
+}
