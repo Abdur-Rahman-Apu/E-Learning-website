@@ -90,4 +90,15 @@ header .carousel-control-next i {
     height: 5%;
 }
 
+
+/* *********************************************footer part**************************** */
+footer {
+    min-height: 350px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white;
+}
+
 /* ****************************************media query****************************** */
