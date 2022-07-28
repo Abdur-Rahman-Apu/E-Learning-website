@@ -32,6 +32,7 @@
     text-decoration: none;
     color: white;
     transition: all 1s;
+    cursor: pointer;
 
 }
 
@@ -88,6 +89,11 @@ header .carousel-control-next i {
 .company img {
     width: 10%;
     height: 5%;
+}
+
+
+.modal-body img {
+    width: 10%;
 }
 
 
