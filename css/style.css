@@ -2,17 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap');
 
 /* *****************************************FONTS CLASS********************************** */
-.text-poppins-400,
-.text-poppins-600 {
+
+body {
     font-family: 'Poppins', sans-serif;
-}
-
-.text-poppins-400 {
-    font-weight: 400;
-}
-
-.text-poppins-600 {
-    font-weight: 600;
 }
 
 /* *********************************custom button design ******************************* */
@@ -37,30 +29,15 @@
     background-color: #F4FAFD;
 }
 
-.primary-color {
-    color: #289BDE;
-}
-
-.secondary-color {
-    color: #777777;
-}
-
 /* ******************************************header part**************************** */
 
 header .carousel .carousel-item img {
-    min-height: 100vh;
     object-fit: cover;
 
 }
 
 header .carousel-caption {
     top: 30%;
-}
-
-header .carousel-control-prev i,
-header .carousel-control-next i {
-    font-size: 1.5em;
-    color: white;
 }
 
 /* *********************************************main part*************************** */
@@ -83,7 +60,7 @@ footer {
 }
 
 /* ********************************************media query**************************** */
-@media screen and (max-width:567px) {
+@media screen and (max-width:767px) {
     .carousel-caption p {
         font-size: 0.6em;
     }
